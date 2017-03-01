@@ -23,7 +23,7 @@ Simply run on your terminal:
 
 ~~~~bash
 git clone https://github.com/betmenwasdie/Snorter.git
-cd Snorter/src
+cd Snorter
 ~~~~
 
 ###Execution
