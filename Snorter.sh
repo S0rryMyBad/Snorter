@@ -558,9 +558,9 @@ function banner() {
 
 function help_usage() {
 	
-	echo -ne "\n\t\t${YELLOW}USAGE:${NOCOLOR} $0 -i ${GREEN}INTERFACE${NOCOLOR}"
-	echo -ne "\n\t\t${YELLOW}USAGE:${NOCOLOR} $0 -o ${GREEN}OINKCODE${NOCOLOR} -i ${GREEN}INTERFACE${NOCOLOR}"
-	echo -ne "\n\t\t${YELLOW}Example:${NOCOLOR} $0 -o ${GREEN}123456abcdefgh${NOCOLOR} -i ${GREEN}eth0${NOCOLOR}\n\n"
+	echo -ne "\n\t\t${YELLOW}USAGE:${NOCOLOR} sudo $0 -i ${GREEN}INTERFACE${NOCOLOR}"
+	echo -ne "\n\t\t${YELLOW}USAGE:${NOCOLOR} sudo $0 -o ${GREEN}OINKCODE${NOCOLOR} -i ${GREEN}INTERFACE${NOCOLOR}"
+	echo -ne "\n\t\t${YELLOW}Example:${NOCOLOR} sudo $0 -o ${GREEN}123456abcdefgh${NOCOLOR} -i ${GREEN}eth0${NOCOLOR}\n\n"
 	exit 0
 
 }
